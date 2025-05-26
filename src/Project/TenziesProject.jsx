@@ -9,6 +9,7 @@ export default function TenziesProject() {
     const gameWon = dice.every(die => die.isClicked) && 
                     dice.every(die => die.value === dice[0].value);
 
+                    
     function generateAllNewDice () {
         const newDice = [];
 
